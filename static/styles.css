@@ -1,17 +1,9 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: verdana;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form > * {
-  margin: 1rem;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  font-size: calc(16px + 1.5vw);
 }
