@@ -19,11 +19,18 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "images/",
+              outputPath: "assets/",
             },
           },
         ],
       },
     ],
+  },
+  resolve: {
+    extensions: [".js", ".jsx"], // Add other extensions if needed
+    alias: {
+      // Add aliases if needed
+      "@assets": path.resolve(__dirname, "src/assets"),
+    },
   },
 };
